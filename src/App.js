@@ -22,7 +22,7 @@ class App extends Component {
     if (this.timer != null) { //se for diferente de nulo
       clearInterval(this.timer); // pausa o timer => tem algo dentro do timer
       this.timer = null;
-      state.botao = 'REINICIAR'; //seta o botao para INICAR
+      state.botao = 'REINICIAR'; //seta o botao para REINICAR
     } else {
       this.timer = setInterval(() => { //faz o relogio girar
         let state = this.state;
